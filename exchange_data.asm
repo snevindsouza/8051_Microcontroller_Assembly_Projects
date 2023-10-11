@@ -1,4 +1,5 @@
 ; In this program R0 and R1 registers are used as memory pointers. R3 is used as a counter to repeat the data exchange between two locations 
+; Exchange of 10 data bytes between 10H and 20H locations is done
 MOV R0, #10H     ; MEMORY 1
 MOV R1, #20H     ; MEMORY 2 
 MOV R3, #10      ; COUNTER SET FOR 10 VALUES (0AH LOADED)
