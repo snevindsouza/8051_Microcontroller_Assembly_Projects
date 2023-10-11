@@ -1,5 +1,4 @@
-; In this program R0 and R1 registers are used as memory pointers. A count values in register R5 is 
-; loaded to repeat the data transfer recursively. 
+; In this program R0 and R1 registers are used as memory pointers. A count values in register R5 is loaded to repeat the data transfer recursively. 
 MOV R0,#10H 	; SOURCE MEMORY 
 MOV R1,#20H 	; DESTINATION MEMORY 
 MOV R5,#0AH 	; COUNTER 
